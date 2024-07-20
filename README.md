@@ -27,7 +27,8 @@ Start the server: npm start
 - POST /api/request-otp : Send otp to register user email. 
 - POST /api/verify-otp : Verify otp.
 
-
+# Note:
+- In this project, I have used self signed certificate to run server on htttps so don't forgot to add ".crt" and ".key" file in root directory of project or else you can even run normal http server by just uncommenting the http code and commenting https code.
 
 # Contributing:
 - Fork the repository.
