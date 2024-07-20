@@ -1,0 +1,7 @@
+node_modules
+.env
+*.key
+ecdsa.crt
+ecdsa.key
+openssl.cnf
+*.db
